@@ -1,0 +1,137 @@
+
+/* Below here sets the default styling for the body */
+body {
+    margin: 0;
+    padding: 0px;
+	
+font-size: 14pt;
+font-family: Monospace;
+color: #333333;
+background-color: lavender; 
+}
+
+
+/*Below here styles my main heading */
+
+.heading {
+font-size: 18pt;
+font-family: Times;
+text-align: center;
+text-decoration: underline; bold;
+}
+/*Below here styles my subheading*/
+
+.subheading {
+font-size: 16pt;
+font-family: Times;
+text-align: center;
+text-decoration: underline; bold;
+}
+
+
+/*Below here is styles my main text */
+.maintext {
+	font-size: 14pt;
+	position: absolute; left: 800px; top: 200px; 
+	width: 700px;
+	word-wrap: break-word;
+}
+
+
+/*Below here changes the colour and size of my anchors / links*/
+
+a{
+	font-size: 120%;
+	color: cornflowerblue;
+}
+
+/* This gives a border when the navigation links are hovered*/ 
+
+a:hover {
+	border:3px solid darkorchid !important;
+}
+/*Everything below here is my styling and positioning for my images*/
+
+#img1 {
+
+position: absolute; left: 020px; top: 220px;
+
+}
+#img2{
+
+position: absolute; left: 420px; top: 220px;
+
+}
+#img3 {
+
+position: absolute; left: 020px; top:540px;
+
+}#img4 {
+
+position: absolute; left:  420px; top: 540px;
+
+}
+
+.images{
+	height:250px;
+	width:250px;
+
+}
+
+/*This overrides my anchor hover style so that it doesn't give a border when I hover over the image captions*/
+
+.caption:hover{
+	border:none !important;
+	text-decoration: underline darkorchid !important;
+	
+}
+
+/* Everything below here is my styling and positioning for my picture captions */
+
+#caption1{
+	position: absolute; left: 110px; top: 470px;
+	color: #333333 !important;
+	width: 200px;
+	word-wrap:break-word;
+}
+
+#caption2{
+	position: absolute; left: 530px; top: 470px;
+	color: #333333 !important;
+	width: 200px;
+	word-wrap:break-word;
+}
+#caption3{
+	position: absolute; left: 110px; top: 790px;
+	color: #333333 !important;
+	width: 200px;
+	word-wrap:break-word;
+}
+#caption4{
+	position: absolute; left: 535px; top: 790px;
+	color: #333333 !important;
+	width: 200px;
+	word-wrap:break-word;
+}
+
+.caption{
+	color:#333333 !important;
+}
+
+/*Everything below here is my styling and positioning for the news sidebar*/
+
+#Links{
+	position: absolute; left: 1680px; top: 210px; 
+	font-size: 20pt;
+	font-weight: bold;
+	text-decoration: underline
+}
+#Link1{
+	position: absolute; left: 1680px; top: 270px;
+	word-wrap:break-word;
+	font-size: 13pt;
+	width:230px;
+}
+
+
+
